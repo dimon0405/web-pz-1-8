@@ -8,7 +8,7 @@ buttons.forEach((button, index) => {
     button.addEventListener('click', () => {
         currentIndex = index;
         updateSlider();
-    });
+     });
 });
 
 function updateSlider() {
